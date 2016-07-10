@@ -3,7 +3,7 @@ package lightstep
 import (
 	"testing"
 
-	"github.com/opentracing/basictracer-go"
+	"github.com/life360/basictracer-go"
 )
 
 func TestMaxBufferSize(t *testing.T) {

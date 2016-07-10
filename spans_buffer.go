@@ -1,6 +1,6 @@
 package lightstep
 
-import "github.com/opentracing/basictracer-go"
+import "github.com/life360/basictracer-go"
 
 const defaultMaxSpans = 1000
 

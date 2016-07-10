@@ -1,6 +1,6 @@
 // A trivial LightStep Go tracer example.
 //
-// $ go build -o lightstep_trivial github.com/lightstep/lightstep-tracer-go/examples/trivial
+// $ go build -o lightstep_trivial github.com/life360/lightstep-tracer-go/examples/trivial
 // $ ./lightstep_trivial --access_token=YOUR_ACCESS_TOKEN
 
 package main
@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/lightstep/lightstep-tracer-go"
-	"github.com/opentracing/opentracing-go"
+	"github.com/life360/lightstep-tracer-go"
+	"github.com/life360/opentracing-go"
 )
 
 var accessToken = flag.String("access_token", "", "your LightStep access token")

@@ -10,12 +10,12 @@ be made, especially regarding the OpenTracing Inject/Join functionality.
 ## OpenTracing API Documentation
 
 For instrumentation documentation, see the [opentracing-go
-godocs](https://godoc.org/github.com/opentracing/opentracing-go).
+godocs](https://godoc.org/github.com/life360/opentracing-go).
 
 ## Installation
 
 ```
-$ go get 'github.com/lightstep/lightstep-tracer-go'
+$ go get 'github.com/life360/lightstep-tracer-go'
 ```
 
 ## Binding OpenTracing to LightStep's `Tracer`
@@ -26,8 +26,8 @@ the LightStep `opentracing.Tracer` implementation and/or set the global
 
 ```
 import (
-    "github.com/opentracing/opentracing-go"
-    "github.com/lightstep/lightstep-tracer-go"
+    "github.com/life360/opentracing-go"
+    "github.com/life360/lightstep-tracer-go"
 )
 
 func main() {

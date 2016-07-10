@@ -1,6 +1,6 @@
 package lightstep
 
-import "github.com/lightstep/lightstep-tracer-go/lightstep_thrift"
+import "github.com/life360/lightstep-tracer-go/lightstep_thrift"
 
 const (
 	// "Recorded" = recorded at the client end of the instrumentation,

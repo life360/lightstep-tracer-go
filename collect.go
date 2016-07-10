@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/opentracing/basictracer-go"
-	"github.com/opentracing/opentracing-go"
+	"github.com/life360/basictracer-go"
+	"github.com/life360/opentracing-go"
 )
 
 const (
